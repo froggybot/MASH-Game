@@ -1,11 +1,12 @@
 @charset "utf-8";
 
 body {
-  background: #713e94;
+  background: #E31C79;
   color: #fff;
-  font-family: Helvetica, Arial;
-  font-size: 27px;
+  font-family: "auster", sans-serif;
   font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
   line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
@@ -13,28 +14,41 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 125px;
   color: #fff;
   text-align: center;
+  text-shadow: -6px 6px 2px #9f1455;
+}
+
+.heading {
+  font-family: "fastpen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .description {
   text-align: center;
   margin: 80px auto 40px;
+  padding: 50px;
+  border: 4px ridge #fff;
+  border-radius: 100px;
 }
 
 .button-submit {
-  background: transparent;
-  border: 3px solid #fff;
-  border-radius: 6px;
+  background-color: #eb60a1;
+  border: 4px ridge #fff;
+  border-radius: 50px;
   color: #fff;
   cursor: pointer; 
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
-  text-align: center; 
+  text-align: center;
+  font-style: italic;
+  text-shadow: -2px 2px 2px #9f1455;
+  box-shadow: -2px 2px 2px #9f1455;
 }
 
 .bucket {
@@ -52,21 +66,25 @@ h1 {
 }
 
 .choice-bucket label {
+  color: #ffffff;
   font-size: 12px;
   line-height: 13px;
   margin: 15px 4%;
 }
 
 .choice-bucket input {
-  border: 0;
-  border-radius: 6px;
-  color: #713e94;
+  border: 4px;
+  border-style: ridge;
+  border-radius: 25px;
+  background-color:#ffdaed;
+  color: #c31868;
   font-size: 18px;
   margin: 15px 4%;
   outline: 0;
   padding: 16px 0;
   text-indent: 20px;
-  width: 92%;  
+  width: 92%; 
+  box-shadow: -2px 2px 2px #9f1455;
 }
 
 .choice-bucket label ~ input {
@@ -74,10 +92,11 @@ h1 {
 }
 
 .highlight {
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 25px;
   line-height: 24px;
   margin-left: 30px;
-  opacity: .8;
+  opacity: 1;
 }
 
 #answers {
