@@ -49,8 +49,8 @@ function fill_in_answers(answers) {
 	answer_2.innerHTML = answers.answer_2;  // Change the content of the element in the HTML doc with the id "career" to the "career" value in answers 
 	answer_3.innerHTML = answers.answer_3;
 	answer_1.innerHTML = answers.answer_1;
-	answer_4.innerHTML = answers['answer_4'];
-	answer_5.innerHTML = answers['answer_5'];
+	answer_4.innerHTML = answers.answer_4;
+	answer_5.innerHTML = answers.answer_5;
 }
 
 // Button submit handler function
